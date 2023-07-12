@@ -10,4 +10,4 @@ WORKDIR /app/client
 RUN npm install && npm run build
 WORKDIR /app
 CMD ["npm", "run", "deploy"]
-EXPOSE 10000
+EXPOSE 8080
